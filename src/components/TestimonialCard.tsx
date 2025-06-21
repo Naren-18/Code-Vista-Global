@@ -8,7 +8,7 @@ interface TestimonialCardProps {
   course: string;
   rating: number;
   testimonial: string;
-  image: string;
+  image?: string;
   beforeAfter?: {
     before: string;
     after: string;
@@ -28,11 +28,6 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
   return (
     <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 h-full">
       <div className="flex items-center mb-4">
-        <img
-          src={image}
-          alt={name}
-          className="w-16 h-16 rounded-full object-cover mr-4"
-        />
         <div className="flex-1">
           <h4 className="font-montserrat font-semibold text-navy text-lg">{name}</h4>
           <div className="flex items-center text-sm text-gray-600 mb-1">

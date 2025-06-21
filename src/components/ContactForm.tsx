@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaPaperPlane, FaUser, FaEnvelope, FaPhone, FaComment } from 'react-icons/fa';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -23,17 +24,34 @@ const ContactForm = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
-    alert('Thank you for your inquiry! We will contact you within 24 hours.');
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      interest: '',
-      message: '',
-    });
+    // Prepare template params for emailjs
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      mobile: formData.phone,
+      interested: formData.interest,
+      message: formData.message,
+      country: formData.interest, // using interest as country for now
+    };
+
+    try {
+      await emailjs.send(
+        'service_bx50yz7',
+        'template_xacmsk8',
+        templateParams,
+        'I_ax_3zXDIYN2TNu7'
+      );
+      alert('Thank you for your inquiry! We will contact you within 24 hours.');
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        interest: '',
+        message: '',
+      });
+    } catch (error) {
+      alert('There was an error sending your message. Please try again later.');
+    }
     setIsSubmitting(false);
   };
 

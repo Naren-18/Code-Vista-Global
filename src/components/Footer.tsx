@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
             <p className="text-gray-300 font-opensans">
               Empowering students to achieve their global education dreams. 
-              Your trusted partner for international education success with offices in USA and India.
+              Your trusted partner for international education success with offices and operations in the USA, UK, Australia, Canada, Germany, India, and more.
             </p>
             <div className="flex space-x-4">
               <FaFacebook className="h-5 w-5 text-gray-300 hover:text-gold cursor-pointer transition-colors" />
@@ -87,11 +87,11 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 font-opensans text-sm">
-              <span className='text-gold'>© 2024 Code Vista Global.</span> All rights reserved. | Developed by <a href="https://narendra-kumar.vercel.app/" className="text-gold hover:text-gold/80 transition-colors">Narendra Kumar</a>
+              <span className='text-gold'>© 2025 Code Vista Global.</span> All rights reserved. | Developed by <a href="https://narendra-kumar.vercel.app/" className="text-gold hover:text-gold/80 transition-colors">Narendra Kumar</a>
             </p>
             <div className="mt-4 md:mt-0 flex items-center space-x-4 text-sm text-gray-300">
               <span className="bg-green-500 w-2 h-2 rounded-full inline-block"></span>
-              <span>Operating in USA & India</span>
+              <span>Operating in multiple countries worldwide</span>
             </div>
           </div>
         </div>

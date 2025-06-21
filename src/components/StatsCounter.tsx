@@ -19,9 +19,9 @@ const StatsCounter = () => {
     },
     {
       icon: FaGlobe,
-      count: 'USA',
-      suffix: ' & India',
-      label: 'Operations',
+      count: '25+',
+      suffix: ' Countries',
+      label: 'Global Operations',
       color: 'text-blue-500',
     },
     {
@@ -41,7 +41,7 @@ const StatsCounter = () => {
             Our Commitment
           </h2>
           <p className="text-gray-300 font-opensans max-w-2xl mx-auto">
-            A new beginning with a strong foundation in USA and India
+            A new beginning with a strong foundation in 25+ countries worldwide
           </p>
         </div>
 

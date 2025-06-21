@@ -13,12 +13,13 @@ const Contact = () => {
       hours: 'Mon-Fri: 9 AM - 6 PM CST',
       isHeadquarters: true,
     },
+    
     {
       city: 'India Operations',
       country: 'India',
       address: 'Multiple locations across India',
-      phone: '+1-571-249-2658',
-      email: 'info@codevistaglobal.com',
+      phone: '+91-22-1234-5678',
+      email: 'in@codevistaglobal.com',
       hours: 'Mon-Sat: 9 AM - 7 PM IST',
       isHeadquarters: false,
     },
@@ -80,7 +81,7 @@ const Contact = () => {
             Get in Touch with Our Experts
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto font-opensans leading-relaxed">
-            Ready to start your study abroad journey? We're here to guide you every step of the way from our offices in USA and India.
+            Ready to start your study abroad journey? We're here to guide you every step of the way from our offices in the USA, UK, Australia, Canada, Germany, India, and more.
           </p>
         </div>
       </section>
@@ -256,14 +257,6 @@ const Contact = () => {
             ))}
           </div>
 
-          <div className="text-center mt-8">
-            <p className="text-gray-600 font-opensans mb-4">
-              Can't find what you're looking for?
-            </p>
-            <button className="bg-teal text-white px-6 py-3 rounded-lg font-montserrat font-semibold hover:bg-teal-600 transition-colors duration-300">
-              Ask a Question
-            </button>
-          </div>
         </div>
       </section>
 

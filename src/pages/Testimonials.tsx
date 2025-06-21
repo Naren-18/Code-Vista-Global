@@ -12,7 +12,6 @@ const Testimonials = () => {
       course: 'MS Computer Science',
       rating: 5,
       testimonial: 'The team at Code Vista Global was supportive and made the process clear. I felt confident every step of the way.',
-      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop',
     },
     {
       name: 'Priya Sharma',
@@ -21,7 +20,6 @@ const Testimonials = () => {
       course: 'MBA',
       rating: 5,
       testimonial: 'I appreciated the honest advice and personal attention. The guidance helped me focus my applications.',
-      image: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop',
     },
     {
       name: 'Rahul Kumar',
@@ -30,7 +28,6 @@ const Testimonials = () => {
       course: 'Engineering',
       rating: 5,
       testimonial: 'Code Vista Global answered all my questions and made the process less stressful. Thank you for your support!',
-      image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop',
     },
   ];
 

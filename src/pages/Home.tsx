@@ -18,9 +18,9 @@ const Home = () => {
     },
     {
       image: 'https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
-      title: 'Study in USA',
-      subtitle: 'Access to premier institutions ',
-      highlight: 'Country Presence'
+      title: 'Study in Top Destinations',
+      subtitle: 'Access to premier institutions in the UK, Australia, Canada, Germany, and more',
+      highlight: 'Global Presence'
     },
     {
       image: 'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
@@ -62,6 +62,10 @@ const Home = () => {
 
   const countries = [
     { name: 'United States', flag: '🇺🇸' },
+    { name: 'United Kingdom', flag: '🇬🇧' },
+    { name: 'Australia', flag: '🇦🇺' },
+    { name: 'Canada', flag: '🇨🇦' },
+    { name: 'Germany', flag: '🇩🇪' },
     { name: 'India', flag: '🇮🇳' },
   ];
 
@@ -74,12 +78,12 @@ const Home = () => {
     {
       icon: FaBookOpen,
       title: 'University Selection',
-      description: 'Expert guidance to choose the best universities in USA and India.',
+      description: 'Expert guidance to choose the best universities worldwide.',
     },
     {
       icon: FaCheckCircle,
       title: 'Application & Visa',
-      description: 'Complete support through application submission and visa processing.',
+      description: 'Complete support through application submission and visa processing for any country.',
     },
   ];
 
@@ -162,27 +166,31 @@ const Home = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <button className="bg-gold text-navy px-8 py-4 rounded-lg font-montserrat font-semibold text-lg hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105 flex items-center justify-center shadow-lg">
-                Start Your Journey
-                <FaArrowRight className="ml-2 h-5 w-5" />
-              </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-montserrat font-semibold text-lg hover:bg-white hover:text-navy transition-all duration-300 backdrop-blur-sm">
-                Download Brochure
-              </button>
+              <Link to="/contact">
+                <button className="bg-gold text-navy px-8 py-4 rounded-lg font-montserrat font-semibold text-lg hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105 flex items-center justify-center shadow-lg">
+                  Start Your Journey
+                  <FaArrowRight className="ml-2 h-5 w-5" />
+                </button>
+              </Link>
+              <Link to="/contact">
+                <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-montserrat font-semibold text-lg hover:bg-white hover:text-navy transition-all duration-300 backdrop-blur-sm">
+                  Book Free Consultation
+                </button>
+              </Link>
             </div>
 
             {/* Quick Stats */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-2xl mx-auto">
               <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                <div className="text-2xl md:text-3xl font-bold text-gold mb-1">USA</div>
+                <div className="text-2xl md:text-3xl font-bold text-gold mb-1">UK</div>
                 <div className="text-gray-200 font-opensans text-sm">Operations</div>
               </div>
               <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                <div className="text-2xl md:text-3xl font-bold text-gold mb-1">India</div>
+                <div className="text-2xl md:text-3xl font-bold text-gold mb-1">Australia</div>
                 <div className="text-gray-200 font-opensans text-sm">Operations</div>
               </div>
               <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-4 col-span-2 md:col-span-1">
-                <div className="text-2xl md:text-3xl font-bold text-gold mb-1">Expert</div>
+                <div className="text-2xl md:text-3xl font-bold text-gold mb-1">Global</div>
                 <div className="text-gray-200 font-opensans text-sm">Counseling Team</div>
               </div>
             </div>
