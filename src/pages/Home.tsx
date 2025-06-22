@@ -182,7 +182,7 @@ const Home = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-2xl mx-auto">
               <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                <div className="text-2xl md:text-3xl font-bold text-gold mb-1">UK</div>
+                <div className="text-2xl md:text-3xl font-bold text-gold mb-1">US</div>
                 <div className="text-gray-200 font-opensans text-sm">Operations</div>
               </div>
               <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-4">
