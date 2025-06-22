@@ -84,9 +84,11 @@ const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
+          <Link to="/contact">
             <button className="bg-gold text-navy px-6 py-2 rounded-lg font-montserrat font-semibold hover:bg-yellow-400 transition-colors duration-200">
               Free Consultation
             </button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}

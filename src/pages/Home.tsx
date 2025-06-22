@@ -18,8 +18,8 @@ const Home = () => {
     },
     {
       image: 'https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
-      title: 'Study in Top Destinations',
-      subtitle: 'Access to premier institutions in the UK, Australia, Canada, Germany, and more',
+      title: 'Study in US',
+      subtitle: 'Access to premier institutions in the US,UK, Australia, Canada, Germany, and more',
       highlight: 'Global Presence'
     },
     {
